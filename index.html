@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Toothy-eyed Colorpicker</title>
+	<link rel="stylesheet" href="css/style.css"/>
+<!-- favicon  -------------------------------------------------------------------->
+<link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+<link rel="manifest" href="img/fav/site.webmanifest">
+<link rel="mask-icon" href="img/fav/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<!-- favicon  -------------------------------------------------------------------->
+
+</head>
+ 
+<body>
+	
+<div class="lunolet"></div>
+	<!-- =============  MousePointers  ============== -->
+	
+
+	<div class="container">
+<!-- ========================================= -->
+		<div class="container__tools">
+<!-- ----------------------------------------- -->
+			<div class="tools__wheel">
+				<div class="tools__header header">
+					<p>Круг HS</p>
+					<p>(тон и насыщенность)</p> 
+				</div>
+				<div class="tools__border">
+					<div id="wheel" class="tools__pointer cursorPointer">
+						<div class="mousePoint"></div>
+						<div class="mousePoint mousePoint4"></div>
+						<div class="mousePoint mousePoint3"></div>
+						<div class="mousePoint mousePoint2"></div>
+						<div class="mousePoint mousePoint3"></div>
+						<div class="mousePoint mousePoint4"></div>
+						<div class="tools__original"></div>
+					</div>
+					
+				</div>
+			</div>
+<!-- ----------------------------------------- -->
+			<div class="tools__light">
+				<div class="tools__header header">
+					<p>L</p>
+					<p>(светлота)</p> 
+				</div>
+				<div id="slider" class="tools__picker">
+					<div class="tools__lightbox cursorPointer"></div>
+				</div>
+			</div>
+<!-- ----------------------------------------- -->
+			<div class="tools__wheel">
+				<div class="tools__header header">
+					<p id="colorDAY" >Цвет дня:</p>
+					<p id="colorHSL" >RGB: 0, 255, 0</p>
+				</div>
+				<div class="tools__border">
+					<div class="tools__sample"></div>
+				</div>
+			</div>
+<!-- ----------------------------------------- -->
+		</div>
+<!-- ========================================= -->
+		<div class="container__lines">
+			<div class="lines__header header">
+				Монотон
+			</div>
+			<div id="mono" class="lines__container">
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box boxbig"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+			</div>
+		</div>
+<!-- ----------------------------------------- -->
+		<div class="container__lines">
+			<div class="lines__header header">
+				Комплиментарные цвета
+			</div>
+			<div id="duo" class="lines__container">
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box  boxbig"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box  boxbig"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+			</div>
+		</div>
+<!-- ----------------------------------------- -->
+		<div class="container__lines">
+			<div class="lines__header header">
+				Триада
+			</div>
+			<div id="thre" class="lines__container">
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box  boxbig"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box  boxbig"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box  boxbig"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+			</div>
+		</div>
+<!-- ----------------------------------------- -->
+		<div class="container__lines">
+			<div class="lines__header header">
+				Тетрада
+			</div>
+			<div id="quad" class="lines__container">
+				<div class="lines__box  boxbig"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box  boxbig"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box  boxbig"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box"></div>
+				<div class="lines__box  boxbig"></div>
+			</div>
+		</div>
+<!-- -------------TEXT BOX------------------ -->
+		<div class="text">
+			Всем привет! Это глазасто-зубастая Палитра цветов. 
+В проекте используется пространство HSL, координатами в котором являются тон, насыщенность и светлота (от англ. hue, saturation, lightness). Преимущество этой модели в наглядности перемещения внутри цветового цилиндра по трем координатам.
+
+		</div>
+	</div>
+<!-- ----------------------------------------- -->
+
+<!-- ----------------------------------------- -->
+ 
+
+<!-- Подключаем ЯВАСКРИПТ =======================================================-->
+	<script src="js/script.js"></script>
+<!-- Подключаем ЯВАСКРИПТ =======================================================-->
+</body>
+</html>
+
+
+
