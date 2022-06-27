@@ -283,6 +283,7 @@ body {
 }
 
 .text {
+  line-height: 1.4;
   margin: 2vh auto;
   width: 66vh;
   padding: 1vh;
