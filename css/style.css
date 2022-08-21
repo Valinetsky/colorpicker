@@ -76,7 +76,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 body {
-  padding: 1vh;
+  font-size: 2.4vmin;
+  padding: 1vmin;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 100;
   background: radial-gradient(circle at 50% -60%, rgba(255, 255, 255, 0.99) 70%, transparent), linear-gradient(rgba(255, 255, 255, 0.5) 2px, transparent 2px) -2px -2px/100px 100px, linear-gradient(90deg, rgba(255, 255, 255, 0.5) 2px, transparent 2px) -2px -2px/100px 100px, linear-gradient(rgba(255, 255, 255, 0.28) 1px, transparent 1px) -1px -1px/20px 20px, linear-gradient(90deg, rgba(255, 255, 255, 0.28) 1px, transparent 1px) -1px -1px/20px 20px, linear-gradient(HSL(202.8137509255, 68.04917437%, 50%), HSL(202.8137509255, 68.04917437%, 50%));
@@ -102,11 +103,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto 2vh;
+  margin: 0 auto 2vmin;
 }
 
 .tools__header {
-  margin: 0 0 1vh 0;
+  margin: 0 0 1vmin 0;
 }
 
 .tools__sample {
@@ -128,12 +129,12 @@ body {
 
 .tools__border {
   margin: 0px auto;
-  width: 30vh;
-  height: 30vh;
-  border: 1vh solid white;
+  width: 30vmin;
+  height: 30vmin;
+  border: 1vmin solid white;
   background: white;
-  -webkit-box-shadow: 0px 0vh 2vh rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 0vh 2vh rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0vmin 2vmin rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0vmin 2vmin rgba(0, 0, 0, 0.5);
   border-radius: 50%;
 }
 
@@ -169,12 +170,12 @@ body {
 }
 
 .tools__picker {
-  width: 4vh;
-  height: 30vh;
-  -webkit-box-shadow: 0px 1vh 2vh rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 1vh 2vh rgba(0, 0, 0, 0.5);
-  border: 1vh solid white;
-  border-radius: 1.5vh;
+  width: 4vmin;
+  height: 30vmin;
+  -webkit-box-shadow: 0px 1vmin 2vmin rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 1vmin 2vmin rgba(0, 0, 0, 0.5);
+  border: 1vmin solid white;
+  border-radius: 1.5vmin;
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), to(rgb(0, 0, 0)));
   background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
 }
@@ -182,13 +183,13 @@ body {
 .tools__lightbox {
   position: relative;
   width: 200%;
-  height: 1vh;
+  height: 1vmin;
   border: 1px solid white;
   -webkit-transform: translate(-25%, -100%);
           transform: translate(-25%, -100%);
   top: 50%;
-  -webkit-box-shadow: 0px 0vh 1vh rgba(0, 0, 0, 0.8);
-          box-shadow: 0px 0vh 1vh rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0px 0vmin 1vmin rgba(0, 0, 0, 0.8);
+          box-shadow: 0px 0vmin 1vmin rgba(0, 0, 0, 0.8);
 }
 
 .container__lines {
@@ -205,19 +206,20 @@ body {
 }
 
 .lines__header {
-  margin: 0 0 1vh 0;
+  font-size: 2vmin;
+  margin: 0 0 1vmin 0;
 }
 
 .lines__container {
-  width: 66vh;
-  height: 4.5vh;
+  width: 66vmin;
+  height: 4.5vmin;
   -webkit-backdrop-filter: blur(4px) saturate(180%);
           backdrop-filter: blur(4px) saturate(180%);
   background: rgba(255, 255, 255, 0.2);
-  border-radius: 3.6vh;
+  border-radius: 3.6vmin;
   border: 2px solid rgba(255, 255, 255, 0.33);
-  -webkit-box-shadow: 0px 0vh 2vh rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 0vh 2vh rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0vmin 2vmin rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0vmin 2vmin rgba(0, 0, 0, 0.5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,16 +228,16 @@ body {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 0 0 2vh 0;
+  margin: 0 0 2vmin 0;
 }
 
 .lines__box {
-  width: 2.5vh;
-  height: 2.5vh;
+  width: 2.5vmin;
+  height: 2.5vmin;
   border-radius: 20%;
   border: 1px dotted gray;
-  -webkit-box-shadow: 0px 0vh 2vh rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 0vh 2vh rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0vmin 2vmin rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0vmin 2vmin rgba(0, 0, 0, 0.5);
   background: gray;
 }
 
@@ -258,8 +260,8 @@ body {
   background: url(../img/point4.svg) center/400% no-repeat;
   border-radius: 50%;
   z-index: 10;
-  -webkit-box-shadow: 0px 0vh 1vh rgba(0, 0, 0, 0.8);
-          box-shadow: 0px 0vh 1vh rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0px 0vmin 1vmin rgba(0, 0, 0, 0.8);
+          box-shadow: 0px 0vmin 1vmin rgba(0, 0, 0, 0.8);
   opacity: 0.75;
 }
 
@@ -283,27 +285,28 @@ body {
 }
 
 .text {
+  font-size: 1.7vmin;
   line-height: 1.4;
-  margin: 2vh auto;
-  width: 66vh;
-  padding: 1vh;
+  margin: 2vmin auto;
+  width: 66vmin;
+  padding: 1vmin;
   background: hsla(0deg, 100%, 100%, 0.75);
-  -webkit-box-shadow: 0px 0vh 2vh rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 0vh 2vh rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0vmin 2vmin rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0vmin 2vmin rgba(0, 0, 0, 0.5);
 }
 
 .lunolet {
   display: inline-block;
-  width: 20vh;
-  height: 20vh;
+  width: 20vmin;
+  height: 20vmin;
   background: url(../img/lunolet-gray.svg) center/cover no-repeat;
   position: absolute;
-  bottom: 5rem;
-  left: 5rem;
+  bottom: 10vmin;
+  left: 10vmin;
   mix-blend-mode: luminosity;
   z-index: -1;
-  -webkit-box-shadow: 0px 0vh 2vh rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 0vh 2vh rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0vmin 2vmin rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0vmin 2vmin rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.5);
   -webkit-animation: animation-name 20s linear infinite;
